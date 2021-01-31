@@ -30,7 +30,6 @@ body{
     background: brown;
     width: 106px;
     color: yellow;
-    border-radius: 12px;
     height: 30;
     transition: 0.6ms;
     font-size: large;
@@ -46,4 +45,16 @@ body{
     transition: 0.6ms;
     font-size: large;
     width: 57px;
+}
+
+.btn-commands:hover {
+    color: blue;
+    background:bisque;
+    border-radius: 25px;
+}
+
+.btn-invite:hover {
+    color: blue;
+    background:bisque;
+    border-radius: 25px;
 }
