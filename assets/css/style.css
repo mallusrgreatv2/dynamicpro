@@ -24,7 +24,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.btns {
+.btn-commands {
     text-align: start;
     border: 20px auto;
     background: brown;
@@ -32,5 +32,16 @@ body{
     color: yellow;
     border-radius: 12px;
     height: 25;
+    transition: 0.6ms;
+}
 
+.btn-invite {
+    text-align: start;
+    border: 20px auto;
+    background: brown;
+    width: 70px;
+    color: yellow;
+    border-radius: 12px;
+    height: 25;
+    transition: 0.6ms;
 }
