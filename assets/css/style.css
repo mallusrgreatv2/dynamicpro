@@ -1,24 +1,26 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background: #3472af;
 }
 
-.box{
-  width: 300px;
-  padding: 68px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #1e5aca;
-  text-align: center;
+.box {
+    width: 300px;
+    padding: 68px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1e5aca;
+    text-align: center;
 }
+
 .title {
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .description {
     color: cornsilk;
     font-family: 'Courier New', Courier, monospace;
@@ -48,7 +50,7 @@ body{
 
 .btn-commands:hover {
     color: blue;
-    background:cornflowerblue;
+    background: cornflowerblue;
     border-radius: 25px;
 }
 
@@ -66,6 +68,7 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+
 header {
     background: #55d6aa;
 }
@@ -78,8 +81,8 @@ header::after {
 
 .logo {
     float: left;
-    width: 70px;
-    height: 70px;
+    width: 73px;
+    height: 73px;
 }
 
 nav {
@@ -103,7 +106,7 @@ nav a {
     color: #5256;
     text-decoration: none;
     text-transform: uppercase;
-    font-size:14px;
+    font-size: 14px;
     transition: all ease-in-out 500ms;
 }
 
