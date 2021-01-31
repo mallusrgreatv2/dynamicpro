@@ -28,7 +28,7 @@ body{
     text-align: start;
     border: 20px auto;
     background: brown;
-    width: 105px;
+    width: 106px;
     color: yellow;
     border-radius: 12px;
     height: 30;
@@ -40,9 +40,10 @@ body{
     text-align: start;
     border: 20px auto;
     background: brown;
-    width: 46px;
     color: yellow;
     border-radius: 12px;
     height: 25;
     transition: 0.6ms;
+    font-size: large;
+    width: 106px;
 }
