@@ -33,6 +33,7 @@ body{
     border-radius: 12px;
     height: 25;
     transition: 0.6ms;
+    font-size: large;
 }
 
 .btn-invite {
