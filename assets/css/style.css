@@ -12,7 +12,12 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #191919;
+  background: #1e5aca;
   text-align: center;
 }
-  
+.title {
+    color: aqua;
+}
+.description {
+    color: cornsilk;
+}
