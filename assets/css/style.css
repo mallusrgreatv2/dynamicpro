@@ -55,6 +55,10 @@ body{
 
 .btn-invite:hover {
     color: blue;
-    background:bisque;
+    background: cornflowerblue;
     border-radius: 25px;
+}
+
+.pfp {
+    border-radius: 50px;
 }
