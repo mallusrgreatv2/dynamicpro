@@ -28,10 +28,10 @@ body{
     text-align: start;
     border: 20px auto;
     background: brown;
-    width: 87px;
+    width: 96px;
     color: yellow;
     border-radius: 12px;
-    height: 25;
+    height: 30;
     transition: 0.6ms;
     font-size: large;
 }
