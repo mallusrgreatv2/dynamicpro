@@ -29,5 +29,6 @@ body{
     border: 20px auto;
     background: brown;
     width: 75px;
-    color: yellow
+    color: yellow;
+    border-radius: 12px;
 }
