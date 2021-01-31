@@ -28,8 +28,9 @@ body{
     text-align: start;
     border: 20px auto;
     background: brown;
-    width: 100;
+    width: 100px;
     color: yellow;
     border-radius: 12px;
     height: 25;
+
 }
