@@ -23,3 +23,11 @@ body{
     color: cornsilk;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.btn-commands {
+    text-align: center;
+    border: 20px auto;
+    background: brown;
+    width: 75px;
+    color: yellow
+}
