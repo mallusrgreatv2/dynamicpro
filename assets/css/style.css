@@ -66,6 +66,7 @@ body {
 .pfp {
     border-radius: 100px;
     cursor: none;
+    border: aqua;
 }
 
 .container {
