@@ -1,5 +1,5 @@
 console.log(`Hello world`);
-function frick() {
+function dblclick() {
     const doc = document.getElementById("li1");
     const img = document.getElementById("img");
     img.addEventListener("dblclick", () => {
