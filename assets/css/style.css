@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #3472af;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.34axcs-aFvoo8fwQOrlxtwHaEo%26pid%3DApi%26h%3D160&f=1");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box {
@@ -14,6 +16,7 @@ body {
     transform: translate(-50%, -50%);
     background: #1e5aca;
     text-align: center;
+    border-radius: 100px;
 }
 
 .title {
