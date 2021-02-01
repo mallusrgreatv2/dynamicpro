@@ -65,6 +65,7 @@ body {
 
 .pfp {
     border-radius: 100px;
+    cursor: none;
 }
 
 .container {
@@ -86,6 +87,7 @@ header::after {
     float: left;
     width: 73px;
     height: 73px;
+    cursor: pointer;
 }
 
 nav {
@@ -103,6 +105,7 @@ nav li {
     margin-left: 70px;
     padding-top: 23px;
     position: relative;
+    cursor: pointer;
 }
 
 nav a {
