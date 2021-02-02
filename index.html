@@ -4,16 +4,16 @@
     <title>Dynamic Pro</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/javascript/index.js"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="shortcut icon" href="/assets/pictures/pro.png" type="image/x-icon">
     <header>
         <div class="container">
             <img src="assets/pictures/pro.png" alt="logo" class="logo" onclick="dblclick()" id="img">
             <nav>
                 <ul>
-                    <li><a href="/commands.html">Commands</a></li>
-                    <li><a href="https://discord.com/api/oauth2/authorize?client_id=778282172766617643&permissions=8&scope=bot%20applications.commands">Invite</a></li>
-                    <li><a href="https://discord.gg/qeKQ597xGx">Support</a></li>
+                    <li><a href="/commands.html"><div class="fa fa-code"></div>Commands</a></li>
+                    <li><a href="https://discord.com/api/oauth2/authorize?client_id=778282172766617643&permissions=8&scope=bot%20applications.commands"><div class="fa fa-download"></div>Invite</a></li>
+                    <li><a href="https://discord.gg/qeKQ597xGx"><div class="fab fa-discord"></div> Support</a></li>
                     <li id="li1"></li>
                 </ul>
             </nav>
@@ -23,11 +23,12 @@
 
 <body>
     <div class="box">
-        <img class="pfp"src="./assets/pictures/pro.png" alt="">
+        <img class="pfp"src="./assets/pictures/pro.png" alt="avatar" onclick="pfpclick()" id="pfp">
         <h1 class="title">Dynamic Pro</h1>
         <p class="description">A simple multipurpose bot <i><b>in progress...</b></i></p>
-        <button type="submit"class="btn-commands" value="Commands"><a href="/commands.html" target="_blank">Commands</a></button>
-        <button type="submit" class="btn-invite" value="Commands"><a href="https://discord.com/api/oauth2/authorize?client_id=778282172766617643&permissions=8&scope=bot%20applications.commands" target="_blank">Invite</a></button>
+        <button type="submit"class="btn-commands" value="Commands"><a href="/commands.html" target="_blank"> Commands</a></button>
+        <button type="submit" class="btn-invite" value="Invite"><a href="https://discord.com/api/oauth2/authorize?client_id=778282172766617643&permissions=8&scope=bot%20applications.commands" target="_blank"> Invite</a></button>
+        <button class="btn-github"><a href="https://github.com/mallusrgreatv2/dynamicpro" target="_blank">Website Github</a></button>
     </div>
 </body>
 

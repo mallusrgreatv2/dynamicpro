@@ -6,3 +6,4 @@ function dblclick() {
         doc.innerHTML = "You found the button!\n(it does nothing)"
     })
 }
+

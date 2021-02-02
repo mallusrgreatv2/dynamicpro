@@ -38,6 +38,7 @@ body {
     height: 30;
     transition: 0.6ms;
     font-size: large;
+    transition: 0.6s;
 }
 
 .btn-invite {
@@ -49,9 +50,27 @@ body {
     transition: 0.6ms;
     font-size: large;
     width: 57px;
+    transition: 0.6s;
+}
+.btn-github {
+    text-align: start;
+    border: 20px auto;
+    background: brown;
+    color: yellow;
+    height: 30;
+    transition: 0.6ms;
+    font-size: large;
+    width: 139px;
+    transition: 0.6s;
 }
 
 .btn-commands:hover {
+    color: blue;
+    background: cornflowerblue;
+    border-radius: 25px;
+}
+
+.btn-github:hover {
     color: blue;
     background: cornflowerblue;
     border-radius: 25px;
